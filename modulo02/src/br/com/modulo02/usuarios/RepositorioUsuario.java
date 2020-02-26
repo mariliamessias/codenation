@@ -23,7 +23,7 @@ public class RepositorioUsuario {
         return null;
     }
 
-    public List<Usuario> findALl(){
+    public List<Usuario>     findALl(){
         return this.usuarios;
     }
 }
