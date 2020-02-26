@@ -1,19 +1,21 @@
 package br.com.codenation.times;
 
-import br.com.codenation.desafio.app.MeuTimeInterface;
+import br.com.codenation.jogadores.Jogador;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Time {
 
-    Long id;
-    String nome;
-    LocalDate dataCriacao;
-    String corUniformePrincipal;
-    String corUniformeSecundario;
-    Long capitaoId;
+    private Long id;
+    private String nome;
+    private LocalDate dataCriacao;
+    private String corUniformePrincipal;
+    private String corUniformeSecundario;
+    private Long capitaoId;
+    private List<Jogador> jogadores = new ArrayList<>();
 
     public Time(Long id, String nome, LocalDate dataCriacao, String corUniformePrincipal, String corUniformeSecundario) {
         setId(id);
@@ -27,47 +29,76 @@ public class Time {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public Long getCapitaoId() {
         return capitaoId;
-    }
-
-    public void setCapitaoId(Long capitaoId) {
-        this.capitaoId = capitaoId;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public LocalDate getDataCriacao() {
         return dataCriacao;
-    }
-
-    public void setDataCriacao(LocalDate dataCriacao) {
-        this.dataCriacao = dataCriacao;
     }
 
     public String getCorUniformePrincipal() {
         return corUniformePrincipal;
     }
 
-    public void setCorUniformePrincipal(String corUniformePrincipal) {
-        this.corUniformePrincipal = corUniformePrincipal;
-    }
-
     public String getCorUniformeSecundario() {
         return corUniformeSecundario;
     }
 
-    public void setCorUniformeSecundario(String corUniformeSecundario) {
-        this.corUniformeSecundario = corUniformeSecundario;
+    public List<Jogador> getJogadores() {
+        return jogadores;
     }
+
+    public void setCapitaoId(Long capitaoId) {
+        this.capitaoId = capitaoId;
+    }
+
+    public void setId(Long id) {
+        if(this.validaId(id)) this.id = id;
+        else throw new NullPointerException("Id inválido!");
+    }
+
+    public void setNome(String nome) {
+        if(this.validaNome(nome)) this.nome = nome;
+        else throw new NullPointerException("Nome inválido!");
+    }
+
+    public void setDataCriacao(LocalDate dataCriacao) {
+        if(this.validaData(dataCriacao))  this.dataCriacao = dataCriacao;
+        else throw new NullPointerException("Data inválida!");
+    }
+
+    public void setCorUniformePrincipal(String corUniformePrincipal) {
+        if(this.validaCorUniforme(corUniformePrincipal))  this.corUniformePrincipal = corUniformePrincipal;
+        else throw new NullPointerException("Cor de uniforme inválida!");
+    }
+
+    public void setCorUniformeSecundario(String corUniformeSecundario) {
+        if(this.validaCorUniforme(corUniformeSecundario)) this.corUniformeSecundario = corUniformeSecundario;
+        else throw new NullPointerException("Cor de uniforme inválida!");
+    }
+
+    public void setJogadores(List<Jogador> jogadores) {
+        this.jogadores = jogadores;
+    }
+
+    private boolean validaId(Long id){
+        return !Objects.isNull(id) && !String.valueOf(id).isEmpty();
+    }
+
+    private boolean validaNome(String nome){
+        return !Objects.isNull(nome) && !nome.isEmpty();
+    }
+
+    private boolean validaData(LocalDate data){
+        return !Objects.isNull(data) && !String.valueOf(data).isEmpty() && data.isEqual(LocalDate.now());
+    }
+    private boolean validaCorUniforme(String cor){
+        return !Objects.isNull(cor) && !cor.isEmpty();
+    }
+
 }

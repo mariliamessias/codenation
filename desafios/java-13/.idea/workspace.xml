@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eff3541a-d10a-450e-800b-66c3420f816c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y7WYtJbxiDiABmLEcc4YZRywDx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.codenation.calculadora.Application" />
+      <module name="java-13.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.codenation.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eff3541a-d10a-450e-800b-66c3420f816c" name="Default Changelist" comment="" />
+      <created>1582294163704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582294163704</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1582300130293">
+      <screen x="-286" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582300130293" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582294455955" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1582300130292">
+      <screen x="-286" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582300130292" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.877/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582294455953" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1582300130291">
+      <screen x="-286" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582300130291" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.877/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582294455952" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1582300130293">
+      <screen x="-286" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582300130293" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.877/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582294455954" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1582300130297">
+      <screen x="-286" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582300130297" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1582300130296">
+      <screen x="-286" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582300130296" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1582300130295">
+      <screen x="-286" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582300130295" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1582300130297">
+      <screen x="-286" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-286.-1080.1920.1080@-286.-1080.1920.1080" timestamp="1582300130297" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/codenation/calculadora/Application.java</url>
+          <line>4</line>
+          <properties class="br.com.codenation.calculadora.Application" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
