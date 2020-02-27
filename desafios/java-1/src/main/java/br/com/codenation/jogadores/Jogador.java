@@ -62,15 +62,19 @@ public class Jogador {
     }
 
     public void setDataNascimento(LocalDate dataNascimento) {
-        this.dataNascimento = dataNascimento;
+        if(validaData(dataNascimento)) this.dataNascimento = dataNascimento;
+        else throw new NullPointerException("Data inválida!");
     }
 
     public void setNivelHabilidade(Integer nivelHabilidade) {
-        this.nivelHabilidade = nivelHabilidade;
+
+        if(validaHabilidade(nivelHabilidade)) this.nivelHabilidade = nivelHabilidade;
+        else throw new NullPointerException("Nível de habilidade inválido!");
     }
 
     public void setSalario(BigDecimal salario) {
-        this.salario = salario;
+        if(validaSalario(salario)) this.salario = salario;
+        else throw new NullPointerException("Salário inválido!");
     }
 
     private boolean validaId(Long id){
@@ -82,14 +86,14 @@ public class Jogador {
     }
 
     private boolean validaData(LocalDate data){
-        return !Objects.isNull(data) && !String.valueOf(data).isEmpty() && data.isBefore(LocalDate.now());
+        return !Objects.isNull(data) && !String.valueOf(data).isEmpty();
     }
     private boolean validaHabilidade(Integer valor){
         return !Objects.isNull(valor) && (valor >=0 && valor<=100);
     }
 
-    private boolean validaSalario(BigDecimal s) {
-        return s!=null && s.doubleValue()>0.0;
+    private boolean validaSalario(BigDecimal salario) {
+        return !Objects.isNull(salario) && salario.doubleValue() > 0.0;
     }
 
 }

@@ -15,7 +15,6 @@ public class Time {
     private String corUniformePrincipal;
     private String corUniformeSecundario;
     private Long capitaoId;
-    private List<Jogador> jogadores = new ArrayList<>();
 
     public Time(Long id, String nome, LocalDate dataCriacao, String corUniformePrincipal, String corUniformeSecundario) {
         setId(id);
@@ -49,10 +48,6 @@ public class Time {
         return corUniformeSecundario;
     }
 
-    public List<Jogador> getJogadores() {
-        return jogadores;
-    }
-
     public void setCapitaoId(Long capitaoId) {
         this.capitaoId = capitaoId;
     }
@@ -80,10 +75,6 @@ public class Time {
     public void setCorUniformeSecundario(String corUniformeSecundario) {
         if(this.validaCorUniforme(corUniformeSecundario)) this.corUniformeSecundario = corUniformeSecundario;
         else throw new NullPointerException("Cor de uniforme inválida!");
-    }
-
-    public void setJogadores(List<Jogador> jogadores) {
-        this.jogadores = jogadores;
     }
 
     private boolean validaId(Long id){
