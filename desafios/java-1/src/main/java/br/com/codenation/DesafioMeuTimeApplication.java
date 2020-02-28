@@ -6,8 +6,6 @@ import br.com.codenation.desafio.exceptions.CapitaoNaoInformadoException;
 import br.com.codenation.desafio.exceptions.IdentificadorUtilizadoException;
 import br.com.codenation.desafio.exceptions.JogadorNaoEncontradoException;
 import br.com.codenation.desafio.exceptions.TimeNaoEncontradoException;
-import br.com.codenation.jogadores.Jogador;
-import br.com.codenation.times.Time;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -39,7 +37,9 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 	@Desafio("definirCapitao")
 	public void definirCapitao(Long idJogador) {
 		final Jogador jogadorCapitao = buscarJogadorPorId(idJogador).orElseThrow(JogadorNaoEncontradoException::new);
-		buscarTimePorId(jogadorCapitao.getIdTime()).get().setCapitaoId(idJogador);
+		final Time timeCapitao = buscarTimePorId(jogadorCapitao.getIdTime()).get();
+		timeCapitao.setCapitaoId(idJogador);
+
 	}
 
 	@Desafio("buscarCapitaoDoTime")

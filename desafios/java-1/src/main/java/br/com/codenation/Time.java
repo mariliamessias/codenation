@@ -1,10 +1,6 @@
-package br.com.codenation.times;
-
-import br.com.codenation.jogadores.Jogador;
+package br.com.codenation;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class Time {
@@ -54,12 +50,12 @@ public class Time {
 
     public void setId(Long id) {
         if(this.validaId(id)) this.id = id;
-        else throw new NullPointerException("Id inválido!");
+        else throw new IllegalArgumentException("Id inválido!");
     }
 
     public void setNome(String nome) {
         if(this.validaNome(nome)) this.nome = nome;
-        else throw new NullPointerException("Nome inválido!");
+        else throw new IllegalArgumentException("Nome inválido!");
     }
 
     public void setDataCriacao(LocalDate dataCriacao) {
@@ -78,18 +74,18 @@ public class Time {
     }
 
     private boolean validaId(Long id){
-        return !Objects.isNull(id) && !String.valueOf(id).isEmpty();
+        return id != null && !String.valueOf(id).isEmpty();
     }
 
     private boolean validaNome(String nome){
-        return !Objects.isNull(nome) && !nome.isEmpty();
+        return nome != null && !nome.isEmpty();
     }
 
     private boolean validaData(LocalDate data){
-        return !Objects.isNull(data) && !String.valueOf(data).isEmpty() && data.isEqual(LocalDate.now());
+        return data != null && !String.valueOf(data).isEmpty();
     }
     private boolean validaCorUniforme(String cor){
-        return !Objects.isNull(cor) && !cor.isEmpty();
+        return cor != null && !cor.isEmpty();
     }
 
 }

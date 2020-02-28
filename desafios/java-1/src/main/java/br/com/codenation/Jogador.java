@@ -1,4 +1,4 @@
-package br.com.codenation.jogadores;
+package br.com.codenation;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -78,22 +78,22 @@ public class Jogador {
     }
 
     private boolean validaId(Long id){
-        return !Objects.isNull(id) && !String.valueOf(id).isEmpty();
+        return id != null  && !String.valueOf(id).isEmpty();
     }
 
     private boolean validaNome(String nome){
-        return !Objects.isNull(nome) && !nome.isEmpty();
+        return nome != null && !nome.isEmpty();
     }
 
     private boolean validaData(LocalDate data){
-        return !Objects.isNull(data) && !String.valueOf(data).isEmpty();
+        return data != null  && !String.valueOf(data).isEmpty();
     }
     private boolean validaHabilidade(Integer valor){
-        return !Objects.isNull(valor) && (valor >=0 && valor<=100);
+        return valor != null  && (valor >=0 && valor<=100);
     }
 
     private boolean validaSalario(BigDecimal salario) {
-        return !Objects.isNull(salario) && salario.doubleValue() > 0.0;
+        return salario != null && salario.doubleValue() > 0.0;
     }
 
 }
