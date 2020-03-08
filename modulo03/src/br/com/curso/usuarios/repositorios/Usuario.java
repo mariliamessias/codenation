@@ -1,5 +1,7 @@
 package br.com.curso.usuarios.repositorios;
 
+import br.com.curso.relatorios.Coluna;
+
 import javax.xml.bind.ValidationException;
 
 public class Usuario {
@@ -13,11 +15,12 @@ public class Usuario {
             setCpf(cpf);
             setNome(nome);
         }
-
+        @Coluna(posicao = 1, titulo = "Nome")
         public String getNome() {
             return nome;
         }
 
+        @Coluna(posicao = 2, titulo = "CPF")
         public String getCpf() {
             return cpf;
         }
