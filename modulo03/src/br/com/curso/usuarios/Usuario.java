@@ -1,8 +1,8 @@
-package br.com.curso.usuarios.repositorios;
+package br.com.curso.usuarios;
 
 import javax.xml.bind.ValidationException;
 
-public class Usuario {
+public class Usuario{
 
         private String login;
         private String cpf;
@@ -57,4 +57,5 @@ public class Usuario {
         public String toString(){
             return this.nome;
         }
+
 }
