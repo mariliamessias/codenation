@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a10647b-614a-41a7-a970-867a4a0b4045" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectId" id="1Zus5BH97sbrvIdm1xlb59fQMCI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.QuoteControllerTest.getQuote">
+    <configuration name="QuoteControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenge.QuoteControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QuoteControllerTest.getQuote" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenge.QuoteControllerTest.getQuote&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.QuoteControllerTest.getQuote" />
+        <item itemvalue="Gradle.QuoteControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a10647b-614a-41a7-a970-867a4a0b4045" name="Default Changelist" comment="" />
+      <created>1585700127857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585700127857</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1585702420919">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="533" y="113" key="#com.intellij.ide.util.MemberChooser/0.23.1440.799@0.23.1440.799" timestamp="1585702420919" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1585743439042">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1585743439042" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1585743439041">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1585743439041" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1585743439041">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1585743439041" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1585743439041">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1585743439041" />
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom" timestamp="1585701462195">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.23.1440.799@0.23.1440.799" timestamp="1585701462195" />
+    <state width="1398" height="254" key="GridCell.Tab.1.center" timestamp="1585701462194">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.center/0.23.1440.799@0.23.1440.799" timestamp="1585701462194" />
+    <state width="1398" height="254" key="GridCell.Tab.1.left" timestamp="1585701462193">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.left/0.23.1440.799@0.23.1440.799" timestamp="1585701462193" />
+    <state width="1398" height="254" key="GridCell.Tab.1.right" timestamp="1585701462194">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.799@0.23.1440.799" timestamp="1585701462194" />
+  </component>
+</project>
